@@ -3,6 +3,7 @@ import os
 import random
 import torch 
 
+# other packages also support seed options, you can add to this function
 def seed_everything(TORCH_SEED):
 	random.seed(TORCH_SEED)
 	os.environ['PYTHONHASHSEED'] = str(TORCH_SEED)
