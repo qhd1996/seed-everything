@@ -3,6 +3,7 @@ import os
 import random
 import torch 
 
+# this function guarantees reproductivity
 # other packages also support seed options, you can add to this function
 def seed_everything(TORCH_SEED):
 	random.seed(TORCH_SEED)
