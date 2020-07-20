@@ -1,6 +1,6 @@
 # seed-everything
 Guarantee the reproductivity of your deep learning algorithm implemented by Pytorch\\
-# Mitivation
+# Motivation
 Based on my experience, I have seen too many papers whose results cannot be replemented almost the same as they claimed. Some of them are **far away from** the claimed results.\\
 To the best of my knowledge, except for some **hidden** reasons(You know it), the main cause is that most algorithms run on GPUs. Due to some optimization mechanisms on **Pytorch** and **cuda**, the results are different even on the same GPU at different times. And the results on GPUs and CPUs are different, too.\\
 # Solution
